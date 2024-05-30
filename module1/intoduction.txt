@@ -1,0 +1,9 @@
+React.js framework is an open sourse javascript frame work and library developed by facebook.
+it is used for building interactive user interface and web application quickly and effectively withsignificantly less code 
+than javascript.
+*jorden walke create react.js
+*react.js is used for building single page application
+*react.js is used for building mobile application
+*component based architeture
+*A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, 
+including HTML pages, JavaScript files, stylesheets, images, and videos
