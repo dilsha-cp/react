@@ -6,4 +6,14 @@ than javascript.
 *react.js is used for building mobile application
 *component based architeture
 *A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, 
-including HTML pages, JavaScript files, stylesheets, images, and videos
+including HTML pages, JavaScript files, stylesheets, images, and videos.*npm is javascript pakage.
+////--------------------------------------------------------------------------------//
+for react dowlode vite
+vite is a database management tool.
+1.first instal react by npm init.
+2.from the vite react page 'npm create vite@latest' .a new folder will create for vite.
+3.then go to the folder and run 'npm install'.
+//////////-----------------------------------------////
+when create javascript and html code together called jsx.
+jsx is a javascript extension.
+there will be a extension in node_modules ->@babel it convert javascript into html then it can understand to browser.
