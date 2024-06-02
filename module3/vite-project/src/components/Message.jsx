@@ -12,4 +12,5 @@ function Message() {
 }
 
 export default Message
-//here we add a button throw which go to a function
+//here we add a button throw which go to a function.
+//in clikon we add function name without '()'.
