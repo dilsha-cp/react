@@ -12,8 +12,14 @@ for react dowlode vite
 vite is a database management tool.
 1.first instal react by npm init.
 2.from the vite react page 'npm create vite@latest' .a new folder will create for vite.
-3.then go to the folder and run 'npm install'.
+3.then go to the folder and run 'npm install'.and npm run dev for execution.
 //////////-----------------------------------------////
 when create javascript and html code together called jsx.
 jsx is a javascript extension.
 there will be a extension in node_modules ->@babel it convert javascript into html then it can understand to browser.
+////---------------------------TO CREATE --------------------------////
+react is a component based architecture.
+*first create a folder in vite-project->public->src->components,
+in that create a new jsx file eg:Hello.jsx(the first letter should be capital letter.).
+*in Hello.jsx exports the file.update that it in App.jsx.App.jsx is the main file.
+*Then npm run dev.
