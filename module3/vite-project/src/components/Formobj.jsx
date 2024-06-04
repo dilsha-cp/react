@@ -5,7 +5,7 @@ function Formobj() {
     function handlesubmit(e){
         e.preventDefault()
         console.log(name)
-    }
+    }//for submission.
   return (
     <div>
         <form>
@@ -20,6 +20,7 @@ function Formobj() {
     
   )
 }
+
 
 export default Formobj
 /*...name is called as spread operator it help to store value in text box, help to multiple value to get previous object*/ 
