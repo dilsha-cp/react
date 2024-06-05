@@ -23,3 +23,8 @@ react is a component based architecture.
 in that create a new jsx file eg:Hello.jsx(the first letter should be capital letter.).
 *in Hello.jsx exports the file.update that it in App.jsx.App.jsx is the main file.
 *Then npm run dev.
+**rfce is used to create function in file.jsx
+**rafc is used in design pages
+**** TAILWIND*****
+*intialy create vite project
+*from tailwind-->docs-->framework-->select vite and instal tailwind and appropriate change in that accourding to that page.
