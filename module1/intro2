@@ -1,11 +1,13 @@
-// ---------------------------------HOOK-----------------------------------
-// Hooks allow us to "hook" into React features such as state and lifecycle methods.
-// usestate
-// useeffect
-// *Hooks can only be called inside React function components.
-// *Hooks can only be called at the top level of a component.
-// *Hooks cannot be conditional
-// syntax of useeffect
-// useeffect(()=>{
-//     console.log('render');
-// })
+---------------------------------HOOK-----------------------------------
+Hooks allow us to "hook" into React features such as state and lifecycle methods.
+usestate
+useeffect
+*Hooks can only be called inside React function components.
+*Hooks can only be called at the top level of a component.
+*Hooks cannot be conditional
+syntax of useeffect
+//in this use useeffect(()=>{
+    use console.log(message)
+},[]) in the array we use the the value that change in useeffect
+//used for component mounding and component updating
+in this use dependency array is used that is nothing empty used for---component mounting
