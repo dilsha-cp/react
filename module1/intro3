@@ -1,0 +1,3 @@
+-------------AXIOS-----------------
+*instal axios using npm install axios.
+*it is use to get the result of api using useeffect hook.
