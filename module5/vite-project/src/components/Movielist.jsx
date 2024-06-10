@@ -6,12 +6,24 @@ import Pagination from './Pagination'
 
 function Movielist() {
   const [movies,setMovies]=useState([])
+  const [pageNo,setpageNo]=useState(1)
+  const pagePrev=()=>{
+    if(pageNo==1){
+      setpageNo(pageNo)
+    }
+    else{
+      setpageNo(pageNo-1)
+    }
+  }
+  const pageNext=()=>{
+    setpageNo(pageNo+1)
+  }
   useEffect(()=>{
-    axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=0ed043a0c308ced862820c9001bdaf95&language=en-US&page=2`).then(function(res){
+    axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=0ed043a0c308ced862820c9001bdaf95&language=en-US&page=${pageNo}`).then(function(res){
       console.log(res.data.results)
       setMovies(res.data.results)
     })
-  },[])
+  },[pageNo])
   return (
     <div className='p-4'>
         <div className='text-2xl m-5 text-bold text-center'>
@@ -22,7 +34,7 @@ function Movielist() {
             return <Moviecard poster_path={movieobj.poster_path} name={movieobj.original_title}/>
           })}
         </div>
-        <Pagination/>
+        <Pagination pageNo={pageNo} pagePrev={pagePrev}pageNext={pageNext}/>
     </div>
   )
 }
